@@ -110,6 +110,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Affichage.h" />
+    <ClInclude Include="..\Club.h" />
+    <ClInclude Include="..\Date.h" />
+    <ClInclude Include="..\Entraineur.h" />
+    <ClInclude Include="..\Joueur.h" />
+    <ClInclude Include="..\LigueSoccer.h" />
+    <ClInclude Include="..\Palmares.h" />
+    <ClInclude Include="..\Parcours.h" />
+    <ClInclude Include="NegoAcheteur.h" />
+    <ClInclude Include="NegoVendeur.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Affichage.cpp" />
+    <ClCompile Include="..\Club.cpp" />
+    <ClCompile Include="..\Date.cpp" />
+    <ClCompile Include="..\Entraineur.cpp" />
+    <ClCompile Include="..\Joueur.cpp" />
+    <ClCompile Include="..\LigueSoccer.cpp" />
+    <ClCompile Include="..\LigueSoccerApp.cpp" />
+    <ClCompile Include="..\Palmares.cpp" />
+    <ClCompile Include="..\Parcours.cpp" />
+    <ClCompile Include="NegoAcheteur.cpp" />
+    <ClCompile Include="NegoVendeur.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
